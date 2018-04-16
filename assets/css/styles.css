@@ -1,70 +1,69 @@
-body{
-	background-image: url("../images/alum.jpg");
-	background-size:cover;
-	
+body {
+  background-image: url("../images/alum.jpg");
+  background-size: cover;
 }
-
-
-
-
 
 .navbar {
-	border-bottom-right-radius: 15px; 
-	border-bottom-left-radius: 15px; 
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
-#name{
-	color: whitesmoke;
-	font-size: 30px;
-	font-weight: bold;
-	font-family: 'Kaushan Script', cursive;
-
+#name {
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Kaushan Script", cursive;
 }
-
 
 .left {
-	text-align: right;
+  text-align: right;
 }
 .center {
-	text-align: center;
+  text-align: center;
 }
 .jumbotron {
-	background-color: #343a40;
-	opacity: 0.7;
-	color: white;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border-radius: 15px;
-
+  background-color: #343a40;
+  opacity: 0.7;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
 }
 
-.jumbotron>p>a {
-	color: white;
-	font-size: 300%;
-	padding: 5%;
-	
+.jumbotron > p > a {
+  color: white;
+  font-size: 300%;
+  padding: 5%;
 }
 
-.carousel-inner{
-	border-radius: 15px;
-	
+.carousel-inner {
+  border-radius: 15px;
+  margin-bottom: 15px;
 }
 
 .carousel-caption {
-	background-color: #343a40;
-	opacity: 0.75;
-	border-radius: 15px;
-	padding: 10px;
+  background-color: #343a40;
+  opacity: 0.75;
+  border-radius: 15px;
+  padding: 10px;
 }
 
-
-
+.mobilCaption {
+  display: none;
+}
 
 .army {
-	color: yellow;
-	
-	
+  color: yellow;
 }
 
+@media only screen and (max-width: 767px) {
+  .mobilCaption {
+	display: block;
+	background-color: #343a40;
+  opacity: 0.7;
+  color: white;
+  padding: 10px 15px 30px;
+  }
+}
