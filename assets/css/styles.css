@@ -153,4 +153,10 @@ a.card-link:hover,
     padding: 20px 15px 30px;
     
   }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon{
+    margin-top: -100px;
+    
+  }
 }
