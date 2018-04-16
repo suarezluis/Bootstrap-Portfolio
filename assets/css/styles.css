@@ -77,6 +77,44 @@ hr {
   margin: 0;
 }
 
+.cardBack {
+  background-color: #343a40;
+  opacity: 0.7;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.card > img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.card {
+  background-color: #343a40;
+  opacity: 0.75;
+  color: white;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+a.card-link {
+  color: white;
+}
+
+.fab {
+  color: white;
+}
+
+.fas:hover,
+.fab:hover,
+a.card-link:hover {
+  color: #2783e6;
+}
+
 @media only screen and (max-width: 767px) {
   .mobilCaption {
     display: block;
