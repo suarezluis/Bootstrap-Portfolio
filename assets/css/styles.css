@@ -156,7 +156,7 @@ a.card-link:hover,
 
   .carousel-control-prev-icon,
   .carousel-control-next-icon{
-    margin-top: 130px;
+    margin-top: 0px;
     
   }
 }
