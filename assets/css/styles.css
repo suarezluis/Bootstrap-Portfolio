@@ -17,6 +17,11 @@ body {
   font-family: "Kaushan Script", cursive;
 }
 
+#name:hover {
+  color: #ff6862;
+  cursor: default;
+}
+
 .left {
   text-align: right;
 }
@@ -78,6 +83,7 @@ hr {
 }
 
 .cardBack {
+  color: white;
   background-color: #343a40;
   opacity: 0.7;
   margin-bottom: 20px;
@@ -111,8 +117,9 @@ a.card-link {
 
 .fas:hover,
 .fab:hover,
-a.card-link:hover {
-  color: #2783e6;
+a.card-link:hover,
+.blueHover:hover {
+  color: #2783e6 !important;
 }
 
 @media only screen and (max-width: 767px) {
