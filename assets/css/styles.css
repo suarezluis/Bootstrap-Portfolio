@@ -1,0 +1,25 @@
+body{
+	background-image: url("../images/alum.jpg");
+	
+}
+
+.left {
+	text-align: right;
+}
+.center {
+	text-align: center;
+}
+.jumbotron {
+	background-color: #343a40;
+	opacity: 0.7;
+	color: white;
+	padding-bottom: 0;
+	margin-top: 20px;
+}
+
+.jumbotron>p>a {
+	color: white;
+	font-size: 300%;
+	padding: 5%;
+	
+}
