@@ -12,6 +12,7 @@ body {
 
 #name {
   color: #2783e6;
+  opacity: initial !Important;
   font-size: 30px;
   font-weight: bold;
   font-family: "Kaushan Script", cursive;
@@ -120,6 +121,23 @@ a.card-link {
 a.card-link:hover,
 .blueHover:hover {
   color: #2783e6 !important;
+}
+
+.col-lg-8 {
+    margin: auto;
+}
+
+.messenger {
+  background-color: #343a40;
+  opacity: 0.75;
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 25px;
+  
+  
+  
+
 }
 
 @media only screen and (max-width: 767px) {
