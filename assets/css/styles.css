@@ -182,4 +182,7 @@ a.card-link:hover,
     margin-top: -3em;
     padding:  10px;
   }
+  .fab{
+    font-size: 29px;
+  }
 }
