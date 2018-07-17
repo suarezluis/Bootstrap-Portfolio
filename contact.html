@@ -68,7 +68,7 @@
         <!-- ... end of Jumbotron -->
         <!-- Form start here -->
 
-        <form class="cardBack">
+        <form class="cardBack" method="POST" name="contactform" action="contact-form-handler.php">
             <div class="form-group">
                 <label for="exampleFormControlInput1">Name</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
@@ -85,7 +85,7 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Please provide as much detail as possible. &#10;-Thank You "
                     rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary btn-block mx-auto">Submit</button>
+            <button type="submit" value="Submit" class="btn btn-primary btn-block mx-auto">Submit</button>
         </form>
 
         <!-- ... end of Form -->
