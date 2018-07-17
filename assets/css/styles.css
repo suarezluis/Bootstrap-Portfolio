@@ -165,6 +165,20 @@ a.card-link:hover,
   cursor: pointer;
 }
 
+.thankyou{
+  text-align: center;
+}
+
+.thankyou h1{
+  color: #ff6862;
+
+}
+
+.thankyou h2{
+  color: #2783e6;
+  
+}
+
 @media only screen and (max-width: 767px) {
   
   .mobilCaption {
