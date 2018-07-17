@@ -141,6 +141,29 @@ a.card-link:hover,
   
 
 }
+.menuProjects{
+  text-align: center;
+  
+}
+.button{
+  display: inline-block !important;
+    background-color: #343a40;
+    opacity: 0.75;
+    color: #2783e6;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px!important;
+    margin: 0 20px;
+    font-family: "Kaushan Script", cursive;
+    font-size: 20px;
+    user-select: none;
+  
+}
+.button:hover {
+  color: #ff6862;
+  cursor: default;
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 767px) {
   
